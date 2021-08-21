@@ -1,18 +1,35 @@
 @import url('./header.css');
+:root {
+    --TitleColor: #292929;
+    --TextColor: #8E8A7F;
+    --TextColor2: #5A5444;
+}
+
 body {
     font-family: 'Cabin', sans-serif;
     font-size: 16px;
-    background: #F0EEEB;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .container {
     max-width: 1100px;
     margin: auto;
+    padding: 0 1rem;
     /* border: 1px solid red; */
 }
 
 .break {
     display: none;
+}
+
+.u-p {
+    color: var(--TextColor);
+    font-size: 1rem;
 }
 
 .welcome-banner {
