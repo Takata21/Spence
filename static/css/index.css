@@ -8,6 +8,7 @@
 body {
     font-family: 'Cabin', sans-serif;
     font-size: 16px;
+    margin: 0;
 }
 
 ul {
@@ -23,11 +24,13 @@ ul {
     /* border: 1px solid red; */
 }
 
-.break {
-    display: none;
-}
 
-.u-p {
+/* 
+/* .break {
+    display: none;
+} */
+
+*/ .u-p {
     color: var(--TextColor);
     font-size: 1rem;
 }
@@ -45,6 +48,7 @@ ul {
     color: whitesmoke;
     font-weight: 400;
     text-align: center;
+    font-size: 13px;
 }
 
 .welcome-banner.active {
