@@ -1,0 +1,25 @@
+.t-editor-img {
+    margin: 2rem 0;
+}
+
+@media screen and (min-width: 540px) {
+    .t-editor {
+        margin: 4rem 0;
+        padding-right: 5rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .t-editor {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .t-editor-img {
+        margin: 0;
+        max-width: 550px;
+    }
+    .t-editor-info {
+        order: 2;
+    }
+}

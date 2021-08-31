@@ -52,14 +52,14 @@ header {
     user-select: none;
 }
 
-#menu-check:checked~header .menu {
-    height: 300px;
+#menu-check:checked~.header-container header .menu {
+    height: 250px;
 }
 
 .menu {
     position: absolute;
     margin: 20px;
-    top: 5vh;
+    top: 10vh;
     right: 0;
     left: 0;
     text-align: center;
@@ -325,5 +325,9 @@ header {
     }
     .menu-list {
         gap: 20vw;
+    }
+    .head {
+        width: 100%;
+        padding: 1rem 8rem;
     }
 }

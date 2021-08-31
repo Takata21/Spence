@@ -1,8 +1,10 @@
 @import url('./header.css');
+@import url('./escrow.css');
+@import url('./tEditor.css');
 :root {
     --TitleColor: #292929;
     --TextColor: #8E8A7F;
-    --TextColor2: #5A5444;
+    --TextColor2: #5E5849;
 }
 
 body {
@@ -24,15 +26,32 @@ ul {
     /* border: 1px solid red; */
 }
 
+.u-link {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #5A5444;
+    font-weight: 500;
+    text-transform: capitalize;
+    transition: linear .5s all;
+}
 
-/* 
-/* .break {
-    display: none;
-} */
+.u-link:hover {
+    color: black;
+}
 
-*/ .u-p {
+.u-p {
     color: var(--TextColor);
     font-size: 1rem;
+}
+
+.u-title {
+    font-size: 1.9rem;
+    text-transform: capitalize;
+}
+
+.img-top {
+    width: 100%;
 }
 
 .welcome-banner {
@@ -64,6 +83,10 @@ ul {
 }
 
 @media screen and (min-width: 540px) {
+    .container {
+        padding: 0 2rem;
+        /* border: 1px solid red; */
+    }
     .welcome-banner p {
         padding: 10px 0;
         font-size: 0.875rem;

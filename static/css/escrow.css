@@ -1,0 +1,19 @@
+.escrow {
+    margin: 1rem 0;
+    padding: 1.5rem;
+    background: #F0EEEB;
+    border-radius: 0.3125rem;
+}
+
+@media screen and (min-width: 540px) {
+    .escrow {
+        padding: 2rem 10.2rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .escrow {
+        display: flex;
+        align-items: center;
+    }
+}
