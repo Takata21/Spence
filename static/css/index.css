@@ -1,6 +1,7 @@
 @import url('./header.css');
-@import url('./escrow.css');
 @import url('./tEditor.css');
+@import url('./escrow.css');
+@import url('./footer.css');
 :root {
     --TitleColor: #292929;
     --TextColor: #8E8A7F;
@@ -24,6 +25,10 @@ ul {
     margin: auto;
     padding: 0 1rem;
     /* border: 1px solid red; */
+}
+
+.upper {
+    text-transform: uppercase !important;
 }
 
 .u-link {
@@ -58,6 +63,10 @@ ul {
     transition: linear .4s all;
     height: 0;
     overflow: hidden;
+    position: absolute;
+    z-index: 99999;
+    left: 0;
+    right: 0;
 }
 
 .welcome-banner p {
